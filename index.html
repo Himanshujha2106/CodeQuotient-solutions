@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <script>
+        function p(a) {
+            console.log(a);
+        }
+        //         function add(a, b) {
+        //             return a + b;
+        //         }
+        //         function subtract(a, b) {
+        //             return a - b;
+        //         }
+        //         function multiply(a, b) {
+        //             return a * b;
+        //         }
+        //         function divide(a, b) {
+        //             return a / b;
+        //         }
+        // p(add(1,2));
+        // p(multiply(1,2));
+        // p(divide(1,2));
+        // p(subtract(1,2));
+
+        // val=5
+
+        // switch(val){
+        //     case 1: p("alpha");
+        //     break;
+        //     case 2: p("beta");
+        //     break;
+
+        //     case 3: p("gama");
+        //     break;
+
+        //     case 4: p("theta");
+        //     break;
+        //     default :
+        //     p("some other stuff")
+
+        // }
+
+
+
+
+        // function compare(a,b){
+        //     return a<b;
+
+        // }
+
+
+        // objects //////////////////////////////////////
+        var mydog = {
+            "name": "camper",
+            "legs": "4",
+            "legs and": "42",
+            "tail": "1"
+
+
+        };
+        // // retreive data ////////////////////////////////////
+        // p(mydog.name);
+        // p(mydog.legs);
+        // p(mydog.tail);
+        // p(mydog["name"]);
+        // p(mydog["legs and"]);
+        // p(mydog["tail"]);
+
+
+
+        // delete property//////////////////////////
+        // var a="tail";
+        // delete mydog.tail;
+        // p(mydog[a]);
+// JSON //////////////////////////////
+// var copy=JSON.parse(JSON.stringify(mydog));
+
+    //   p(copy);
+    // while loop/////////////////////
+
+// var i=0;
+//     while(i<5){
+// p(i);
+// i++;
+//     }
+
+
+// for loop/////////////////////////
+var arr=[[1,2],[2,5],[3,5]];
+// for(var i=0;i<5;i++){
+//     arr.push(i);
+//     p(arr[i]);
+// }
+var count=0;
+for(var i=0;i<arr.length;i++)
+{
+    for(var j=0;j<arr[i].length;j++){
+        count+=arr[i][j];
+    }
+
+}  
+p(count);
+  </script>
+</body>
+
+</html>
